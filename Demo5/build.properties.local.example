@@ -1,0 +1,17 @@
+# local config
+# same as config in `build.properties` but with high priority
+
+# linux, win
+platform win
+
+architecture x64
+
+build_type release
+
+QT_INSTALL_PATH C:/Qt/Qt5.14.1/5.14.1/msvc2015_64
+
+# setting compiler for arm linux
+# cmake_c_compiler /opt/arm-linux/bin/arm-linux-gnueabihf-gcc
+# cmake_cxx_compiler  /opt/arm-linux/bin/arm-linux-gnueabihf-gcc
+
+
